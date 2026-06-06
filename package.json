@@ -13,10 +13,10 @@
 	"bugs": "https://github.com/gtim/svelte-chessground/issues",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "perl generate_unstyled.pl && vite build && npm run package",
+		"build": "perl generate_unstyled.pl && vite build && pnpm package",
 		"preview": "vite preview",
 		"package": "svelte-kit sync && svelte-package && publint",
-		"prepublishOnly": "npm run package",
+		"prepublishOnly": "pnpm package",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"lint": "eslint ."

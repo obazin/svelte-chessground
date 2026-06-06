@@ -77,4 +77,4 @@ To build the package yourself:
 
     $ git clone https://github.com/gtim/svelte-chessground.git
     $ cd svelte-chessground
-    $ npm run build
+    $ pnpm build
