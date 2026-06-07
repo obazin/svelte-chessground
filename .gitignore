@@ -8,3 +8,6 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Provided by chess-flake dev shell (symlinked from nix store on entry)
+.prettierrc.json
